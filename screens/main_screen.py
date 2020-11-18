@@ -5,13 +5,11 @@ from models.neural_engine import NeuralEngine
 
 # Function to get the following command
 def secondaryGUI(score):
-    score = score[0]
-    score = score[0]
     sub_root = Tk()
     sub_root.title("Your Prediction Is !!!!")
     canvas = Canvas(sub_root, width = 500, height = 500, bg = '#5620d4')
     canvas.pack()
-    label = Label(canvas, text=f'Your Score Is\n{str(score)}', font=("Courier", 50), bg = '#5620d4', fg='white')
+    label = Label(canvas, text=f'Your Score Is:\n{str(int(score))}', font=("Courier", 50), bg = '#5620d4', fg='white')
     label.pack()
     sub_root.mainloop()
     
