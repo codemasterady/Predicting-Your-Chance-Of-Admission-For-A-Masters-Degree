@@ -1,1 +1,1 @@
-# Predicting-Your-Chance-Of-Admission-For-A-Masters-Degree-
+# Predicting-Your-Chance-Of-Admission-For-A-Masters-Degree
